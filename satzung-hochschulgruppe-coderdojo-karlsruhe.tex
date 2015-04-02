@@ -1,0 +1,217 @@
+% !TEX program = xelatex
+\documentclass[a4paper, parskip=half, numbers=noenddot]{scrartcl}
+
+\usepackage{a4wide}
+\usepackage{geometry}
+\geometry{left=25mm, right=25mm, top=23mm, bottom=33mm}
+
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage{fontspec} % provides font selecting commands
+\usepackage{xunicode} % provides unicode character macros
+\usepackage{xltxtra}  % provides some fixes/extras
+
+\usepackage{microtype}
+
+\usepackage[juratotoc,ref=parlong]{scrjura}
+
+\usepackage{hyperref}
+
+% setzt einen kleinen Abstand \, zwischen Zahl und Buchstabe bei Paragraphen; ist so gewünscht
+\renewcommand*{\thecontractSubParagraph}{%
+{\theParagraph\,\alph{contractSubParagraph})}}
+
+\renewcommand{\numberline}[1]{\makebox[2.5em][l]{#1}}
+
+
+%
+% Metadaten
+%
+
+\title{Satzung der Hochschulgruppe\\CoderDojo Karlsruhe}
+\author{Version 0.1}
+\date{Stand: 2. April 2015}
+\hypersetup{
+    pdftitle={Satzung der Hochschulgruppe CoderDojo Karlsruhe},
+    pdfauthor={Hochschulgruppe CoderDojo Karlsruhe},
+    pdfborder={0 0 0.5},
+    linkbordercolor={0 0.61 0.50}
+}
+
+
+\begin{document}
+
+
+%
+% Titelseite
+%
+
+\maketitle
+\thispagestyle{empty}
+
+\pagestyle{empty}
+\newpage
+% Für Printversion eine leere Seite
+\rule{0mm}{0mm}
+\newpage
+
+
+\begin{contract}
+
+\setcounter{page}{1}
+\pagestyle{plain}
+
+
+%
+% Inhaltsverzeichnis
+%
+
+\tableofcontents
+\newpage
+
+
+%
+% Präambel
+%
+
+\section*{Präambel}
+
+CoderDojo ist ein weltweites Netzwerk ehrenamtlich und gemeinschaftlich
+betriebener Programmierklubs für Kinder und Jugendliche.
+CoderDojo möchte den Teilnehmern eine lockere und ungezwungene Atmosphäre
+bieten, um zu lernen Websites, Apps, Spiele und Programme zu entwickeln sowie im
+Allgemeinen um zu lernen, moderne Informationstechnologie kreativ einzusetzen.
+Gleichzeitig ist CoderDojo ein Platz für die Teilnehmer um Gleichgesinnte zu
+treffen und sich gegenseitig austauschen.
+
+Die Teilnehmer von CoderDojo werden von Mentoren ans Programmieren heran geführt,
+und gleichzeitig angeleitet, anhand ihres Wissensstandes selbstständig weiter zu
+lernen sowie dazu motiviert, sich gegenseitig auszutauschen, zu helfen und Wissen
+weiter zu geben.
+CoderDojo möchte dadurch den Teilnehmern das Programmieren als gemeinschaftliche,
+soziale Aktivität präsentieren, die Spaß macht und sie befähigen, die erlernten
+Technologien zum Gestalten der Welt einzusetzen.
+
+Dies ist die Satzung der Hochschulgruppe CoderDojo Karlsruhe, die CoderDojo
+am Karlsruher Institut für Technologie organisiert.
+Aus Gründen der besseren Lesbarkeit wird ausschließlich die männliche Form verwendet.
+Dabei ist jede andere Form impliziert.
+Die Geschlechtsdefinition obliegt jeder Person selbst.
+
+
+%
+% Die Hochschulgruppe
+%
+
+\Paragraph{title = Zweck der Hochschulgruppe}
+
+Die Hochschulgruppe CoderDojo Karlsruhe organisiert CoderDojo am Karlsruher
+Institut für Technologie.
+
+Die Hochschulgruppe ist weder gewerblich noch eigenwirtschaftlich tätig.
+
+
+%
+% Mitgliedschaft
+%
+
+\Paragraph{title = Mitgliedschaft}%
+
+Mitglied werden kann jeder Mentor, der sich an einem von der Hochschulgruppe
+organisierten CoderDojo beteiligt.
+
+Die Aufnahme als Mitglied erfolgt durch Aufnahme in die Mitgliederliste durch
+den Vorstand.
+
+Die Mitgliedschaft endet durch Austritt, der gegenüber des Vorstands erklärt wird
+und durch Streichen von der Mitgliederliste erfolgt.
+
+Die Mitglieder arbeiten auf ehrenamtlicher Basis.
+
+Die Mitglieder der Hochschulgruppe zahlen keine Beiträge.
+
+%
+% Organe
+%
+
+\Paragraph{title = Organe}
+
+Die Organe der Hochschulgruppe sind
+
+  \begin{enumerate}
+  \item die Mitgliederversammlung und
+  \item der Vorstand.
+  \end{enumerate}
+
+
+%
+% Mitgliederversammlung
+%
+
+\Paragraph{title = Mitgliederversammung}%
+
+Die Mitgliederversammlung ist das beschließende Organ der Hochschulgruppe und hat besonders die folgenden Zuständigkeiten:
+\begin{enumerate}
+\item Beschluss und Änderung der Satzung der Hochschulgruppe,
+\item Wahl und Entlastung des Vorstands.
+\end{enumerate}
+
+Jedes Mitglied ist auf der Mitgliederversammlung stimm- und antragsberechtigt.
+
+Die Mitgliederversammlung wird mindestens einmal pro Semester sowie auf Antrag von mindestens drei Mitgliedern vom Vorstand einberufen. Bei der Einberufung muss eine Tagesordnung vorgeschlagen werden.
+
+Die Mitgliederversammlung muss mindestens 7 Tage im Voraus angekündigt werden.
+
+Die Mitgliederversammlung ist beschlussfähig, wenn ordnungsgemäß eingeladen wurde und mindestens X Mitglieder anwesend sind.
+
+Den Vorsitz in der Mitgliederversammlung führt der Vorstand.
+
+Die Mitgliederversammlung beschließt mit relativer Mehrheit. Änderungen und Beschlüsse zur Satzung müssen mit Zweidrittelmehrheit der anwesenden Mitglieder beschlossen werden.
+
+Nach der Mitgliederversammlung ist den Mitgliedern durch den Vorstand ein Protokoll zuzusenden.
+
+% Paragraph Fachschaftsversammlung soll noch vollständig auf die Seite passen
+%\enlargethispage*{\baselineskip}
+%\pagebreak
+
+
+%
+% Vorstand
+%
+
+\Paragraph{title = Vorstand}%
+
+Der Vorstand ist das ausführende Organ der Hochschulgruppe und vertritt sie nach außen.
+
+Der Vorstand besteht aus dem 1. und 2. Vorsitzenden. Der 2. Vorsitzende vertritt den 1. Vorsitzenden bei dessen Abwesenheit.
+
+Die Mitglieder des Vorstands werden von der Mitgliederversammlung für die Dauer eines Jahres gewählt.
+
+Die Mitglieder des Vorstandes können jederzeit zurücktreten. Das verbleibende Vorstandsmitglied soll eine Mitgliederversammung einberufen um den vakanten Posten neu zu besetzen.
+
+Aufgaben
+\begin{enumerate}
+\item Einberufung der Mitgliederversammlung,
+\item Führung der Mitgliederliste,
+\item Veröffentlichung der Satzung,
+\item Verantwortung für die Umsetzung von Beschlüssen tragen,
+\item als Ansprechpartner die Beschlüsse und Standpunkte der Hochschulgruppe kommunizieren, sowie die
+\item Verwaltung der Finanzen der Hochschulgruppe.
+\end{enumerate}
+
+Der Vorstand ist der Mitgliederversammlung rech\-en\-schafts\-pflichtig.
+
+Die Mitglieder des Vorstands arbeiten auf ehrenamtlicher Basis.
+
+
+%
+% Schlussbestimmung
+%
+
+\Paragraph{title = Schlussbestimmung}
+
+Diese Satzung tritt am \dots{} in Kraft.
+
+\end{contract}
+\end{document}
